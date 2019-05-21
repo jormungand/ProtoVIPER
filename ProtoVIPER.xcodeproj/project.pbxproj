@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096C412822913A6A00D3AD14 /* installation.sh in Resources */ = {isa = PBXBuildFile; fileRef = 096C411322913A6A00D3AD14 /* installation.sh */; };
 		098AADB2227303AB00432B87 /* ProtoVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AADA8227303AA00432B87 /* ProtoVIPER.framework */; };
 		098AADB7227303AB00432B87 /* ProtoVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098AADB6227303AB00432B87 /* ProtoVIPERTests.swift */; };
 		098AADB9227303AB00432B87 /* ProtoVIPER.h in Headers */ = {isa = PBXBuildFile; fileRef = 098AADAB227303AA00432B87 /* ProtoVIPER.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096C410A22913A6A00D3AD14 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
+		096C410B22913A6A00D3AD14 /* ___VARIABLE_productName___Interactor_mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Interactor_mock.swift"; sourceTree = "<group>"; };
+		096C410C22913A6A00D3AD14 /* ___VARIABLE_productName___Module_mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Module_mock.swift"; sourceTree = "<group>"; };
+		096C410D22913A6A00D3AD14 /* ___VARIABLE_productName___View_mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___View_mock.swift"; sourceTree = "<group>"; };
+		096C410E22913A6A00D3AD14 /* ___VARIABLE_productName___Router_mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Router_mock.swift"; sourceTree = "<group>"; };
+		096C410F22913A6A00D3AD14 /* ___VARIABLE_productName___Presenter_mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Presenter_mock.swift"; sourceTree = "<group>"; };
+		096C411022913A6A00D3AD14 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
+		096C411122913A6A00D3AD14 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		096C411222913A6A00D3AD14 /* ___VARIABLE_productName___.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___.swift"; sourceTree = "<group>"; };
+		096C411322913A6A00D3AD14 /* installation.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = installation.sh; sourceTree = "<group>"; };
+		096C411522913A6A00D3AD14 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
+		096C411622913A6A00D3AD14 /* ___VARIABLE_productName___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Presenter.swift"; sourceTree = "<group>"; };
+		096C411722913A6A00D3AD14 /* ___VARIABLE_productName___Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Router.swift"; sourceTree = "<group>"; };
+		096C411822913A6A00D3AD14 /* ___VARIABLE_productName___Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Interactor.swift"; sourceTree = "<group>"; };
+		096C411922913A6A00D3AD14 /* ___VARIABLE_productName___.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "___VARIABLE_productName___.storyboard"; sourceTree = "<group>"; };
+		096C411A22913A6A00D3AD14 /* ___VARIABLE_productName___.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "___VARIABLE_productName___.xcassets"; sourceTree = "<group>"; };
+		096C411B22913A6A00D3AD14 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
+		096C411C22913A6A00D3AD14 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		096C411D22913A6A00D3AD14 /* ___VARIABLE_productName___Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___Module.swift"; sourceTree = "<group>"; };
+		096C411E22913A6A00D3AD14 /* ___VARIABLE_productName___View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_productName___View.swift"; sourceTree = "<group>"; };
 		098AADA8227303AA00432B87 /* ProtoVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProtoVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		098AADAB227303AA00432B87 /* ProtoVIPER.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoVIPER.h; sourceTree = "<group>"; };
 		098AADAC227303AA00432B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +79,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		096C410822913A6A00D3AD14 /* Xcode-Templates */ = {
+			isa = PBXGroup;
+			children = (
+				096C411422913A6A00D3AD14 /* ProtoVIPER-Module.xctemplate */,
+				096C410922913A6A00D3AD14 /* ProtoVIPER-Module-Tests.xctemplate */,
+			);
+			path = "Xcode-Templates";
+			sourceTree = "<group>";
+		};
+		096C410922913A6A00D3AD14 /* ProtoVIPER-Module-Tests.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				096C411122913A6A00D3AD14 /* TemplateInfo.plist */,
+				096C411022913A6A00D3AD14 /* TemplateIcon.png */,
+				096C410A22913A6A00D3AD14 /* TemplateIcon@2x.png */,
+				096C410B22913A6A00D3AD14 /* ___VARIABLE_productName___Interactor_mock.swift */,
+				096C410C22913A6A00D3AD14 /* ___VARIABLE_productName___Module_mock.swift */,
+				096C410D22913A6A00D3AD14 /* ___VARIABLE_productName___View_mock.swift */,
+				096C410E22913A6A00D3AD14 /* ___VARIABLE_productName___Router_mock.swift */,
+				096C410F22913A6A00D3AD14 /* ___VARIABLE_productName___Presenter_mock.swift */,
+				096C411222913A6A00D3AD14 /* ___VARIABLE_productName___.swift */,
+			);
+			path = "ProtoVIPER-Module-Tests.xctemplate";
+			sourceTree = "<group>";
+		};
+		096C411422913A6A00D3AD14 /* ProtoVIPER-Module.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				096C411C22913A6A00D3AD14 /* TemplateInfo.plist */,
+				096C411B22913A6A00D3AD14 /* TemplateIcon.png */,
+				096C411522913A6A00D3AD14 /* TemplateIcon@2x.png */,
+				096C411622913A6A00D3AD14 /* ___VARIABLE_productName___Presenter.swift */,
+				096C411722913A6A00D3AD14 /* ___VARIABLE_productName___Router.swift */,
+				096C411822913A6A00D3AD14 /* ___VARIABLE_productName___Interactor.swift */,
+				096C411922913A6A00D3AD14 /* ___VARIABLE_productName___.storyboard */,
+				096C411A22913A6A00D3AD14 /* ___VARIABLE_productName___.xcassets */,
+				096C411D22913A6A00D3AD14 /* ___VARIABLE_productName___Module.swift */,
+				096C411E22913A6A00D3AD14 /* ___VARIABLE_productName___View.swift */,
+			);
+			path = "ProtoVIPER-Module.xctemplate";
+			sourceTree = "<group>";
+		};
 		098AAD9E227303AA00432B87 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +187,8 @@
 		098AADCD2273050100432B87 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				096C410822913A6A00D3AD14 /* Xcode-Templates */,
+				096C411322913A6A00D3AD14 /* installation.sh */,
 				098AADCC227304F300432B87 /* Core */,
 				098AADCB227304E400432B87 /* Base classes */,
 			);
@@ -222,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096C412822913A6A00D3AD14 /* installation.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +334,6 @@
 		098AADBA227303AB00432B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -297,7 +362,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -332,7 +396,6 @@
 		098AADBB227303AB00432B87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -361,7 +424,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -391,14 +453,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2UU454UQPG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ProtoVIPER/Info.plist;
+				INFOPLIST_FILE = "ProtoVIPER/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -419,14 +479,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2UU454UQPG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ProtoVIPER/Info.plist;
+				INFOPLIST_FILE = "ProtoVIPER/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
