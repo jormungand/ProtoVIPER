@@ -15,6 +15,13 @@
 		098AADC52273047100432B87 /* DependencyResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098AADC42273047100432B87 /* DependencyResolver.swift */; };
 		098AADC72273049D00432B87 /* RouterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098AADC62273049D00432B87 /* RouterBase.swift */; };
 		098AADC9227304BC00432B87 /* PresenterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098AADC8227304BB00432B87 /* PresenterBase.swift */; };
+		09DB889422AC0D1100CBA3AF /* ___VARIABLE_productName___Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C411622913A6A00D3AD14 /* ___VARIABLE_productName___Presenter.swift */; };
+		09DB889522AC0D1100CBA3AF /* ___VARIABLE_productName___Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C411722913A6A00D3AD14 /* ___VARIABLE_productName___Router.swift */; };
+		09DB889622AC0D1100CBA3AF /* ___VARIABLE_productName___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C411822913A6A00D3AD14 /* ___VARIABLE_productName___Interactor.swift */; };
+		09DB889722AC0D1100CBA3AF /* ___VARIABLE_productName___.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096C411922913A6A00D3AD14 /* ___VARIABLE_productName___.storyboard */; };
+		09DB889822AC0D1100CBA3AF /* ___VARIABLE_productName___.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096C411A22913A6A00D3AD14 /* ___VARIABLE_productName___.xcassets */; };
+		09DB889922AC0D1100CBA3AF /* ___VARIABLE_productName___View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C411E22913A6A00D3AD14 /* ___VARIABLE_productName___View.swift */; };
+		09DB889A22AC0D1100CBA3AF /* ___VARIABLE_productName___Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C411D22913A6A00D3AD14 /* ___VARIABLE_productName___Module.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,8 +122,8 @@
 				096C411822913A6A00D3AD14 /* ___VARIABLE_productName___Interactor.swift */,
 				096C411922913A6A00D3AD14 /* ___VARIABLE_productName___.storyboard */,
 				096C411A22913A6A00D3AD14 /* ___VARIABLE_productName___.xcassets */,
-				096C411D22913A6A00D3AD14 /* ___VARIABLE_productName___Module.swift */,
 				096C411E22913A6A00D3AD14 /* ___VARIABLE_productName___View.swift */,
+				096C411D22913A6A00D3AD14 /* ___VARIABLE_productName___Module.swift */,
 			);
 			path = "ProtoVIPER-Module.xctemplate";
 			sourceTree = "<group>";
@@ -287,7 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DB889822AC0D1100CBA3AF /* ___VARIABLE_productName___.xcassets in Resources */,
 				096C412822913A6A00D3AD14 /* installation.sh in Resources */,
+				09DB889722AC0D1100CBA3AF /* ___VARIABLE_productName___.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +315,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				098AADC52273047100432B87 /* DependencyResolver.swift in Sources */,
+				09DB889522AC0D1100CBA3AF /* ___VARIABLE_productName___Router.swift in Sources */,
+				09DB889622AC0D1100CBA3AF /* ___VARIABLE_productName___Interactor.swift in Sources */,
+				09DB889922AC0D1100CBA3AF /* ___VARIABLE_productName___View.swift in Sources */,
 				098AADC9227304BC00432B87 /* PresenterBase.swift in Sources */,
 				098AADC72273049D00432B87 /* RouterBase.swift in Sources */,
+				09DB889422AC0D1100CBA3AF /* ___VARIABLE_productName___Presenter.swift in Sources */,
+				09DB889A22AC0D1100CBA3AF /* ___VARIABLE_productName___Module.swift in Sources */,
 				098AADC32273044100432B87 /* ModuleProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

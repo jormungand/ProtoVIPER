@@ -4,14 +4,15 @@ import UIKit
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-protocol ___VARIABLE_productName___Router: class, RouterBaseProto, ModuleRouterProto {
+protocol ___VARIABLE_productName___Router: RouterBaseProto, ModuleRouterProto {
     init(view: ___VARIABLE_productName___View)
     var resolver: ___VARIABLE_productName___ModuleRoutingResolverProto! { get set }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-class ___VARIABLE_productName___RouterImpl: RouterBaseProto, ___VARIABLE_productName___Router {
+
+class ___VARIABLE_productName___RouterImpl {
 
     var resolver: ___VARIABLE_productName___ModuleRoutingResolverProto!
     private weak var concreteView: ___VARIABLE_productName___View?
@@ -28,4 +29,10 @@ class ___VARIABLE_productName___RouterImpl: RouterBaseProto, ___VARIABLE_product
     }
 
     ////////////////////////
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+extension ___VARIABLE_productName___RouterImpl: ___VARIABLE_productName___Router {
+    
 }

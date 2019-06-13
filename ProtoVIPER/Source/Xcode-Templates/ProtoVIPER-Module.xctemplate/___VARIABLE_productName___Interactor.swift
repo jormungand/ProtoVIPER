@@ -4,7 +4,7 @@ import Foundation
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-protocol ___VARIABLE_productName___Interactor: class, ModuleInteractorProto {
+protocol ___VARIABLE_productName___Interactor: ModuleInteractorProto {
     init()
     init(queue: DispatchQueue)
 }
